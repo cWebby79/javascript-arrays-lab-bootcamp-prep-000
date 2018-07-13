@@ -1,1 +1,5 @@
-// Add your functions and code here
+var cats = [];
+
+function destructivelyAppendKitten(name) {
+  return[...cats,name];
+}
