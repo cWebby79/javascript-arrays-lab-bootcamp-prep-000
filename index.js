@@ -1,5 +1,5 @@
 function destructivelyAppendKitten(name) {
   var cats = ['Milo', 'Otis', 'Garfield'];
-  cats.pop(name);
+  cats.push(name);
   return cats;
 }
